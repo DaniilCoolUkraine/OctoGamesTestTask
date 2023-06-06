@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a8e7d5a7-16b3-45fe-894b-790533bf3ffa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OctoGamesTestTaskUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OctoGamesTestTaskUnity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Zombie.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <updated>1685896622026</updated>
       <workItem from="1685896650101" duration="5000" />
       <workItem from="1685964298712" duration="897000" />
-      <workItem from="1686046396081" duration="1847000" />
+      <workItem from="1686046396081" duration="4791000" />
     </task>
     <servers />
   </component>

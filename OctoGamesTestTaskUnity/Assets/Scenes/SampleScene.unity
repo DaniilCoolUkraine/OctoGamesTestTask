@@ -28701,6 +28701,7 @@ GameObject:
   - component: {fileID: 1665775963}
   - component: {fileID: 1665775962}
   - component: {fileID: 1665775961}
+  - component: {fileID: 1665775965}
   - component: {fileID: 1665775960}
   - component: {fileID: 1665775959}
   - component: {fileID: 1665775958}
@@ -28716,6 +28717,7 @@ GameObject:
   - component: {fileID: 1665775948}
   - component: {fileID: 1665775947}
   - component: {fileID: 1665775964}
+  - component: {fileID: 1665775966}
   m_Layer: 31
   m_Name: Nolan
   m_TagString: Player
@@ -28878,6 +28880,8 @@ MonoBehaviour:
   m_Hitboxes:
   - m_Collider: {fileID: 1525228133}
     m_DamageMultiplier: 1
+  - m_Collider: {fileID: 1665775965}
+    m_DamageMultiplier: 2
   m_MaxHitboxCollisionCount: 10
   m_SpawnedObjectsOnDeath: []
   m_DestroyedObjectsOnDeath: []
@@ -30412,6 +30416,33 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!136 &1665775965
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665775945}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.8
+  m_Height: 2.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.77575064, z: 0}
+--- !u!114 &1665775966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665775945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c2a79a0757427793e33fc6fff63175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 1665775952}
 --- !u!1 &1667609950
 GameObject:
   m_ObjectHideFlags: 0
