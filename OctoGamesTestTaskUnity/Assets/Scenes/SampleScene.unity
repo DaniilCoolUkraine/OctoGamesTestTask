@@ -36229,7 +36229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3753bfd61274890a3f2ba59a7265f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxZombieCount: 40
+  _maxZombieCount: 1
   _zombiePrefab: {fileID: 1537442040941859066, guid: 3827d25ce1a8ab54d996f94643e7f7d4,
     type: 3}
   _spawnPoints:

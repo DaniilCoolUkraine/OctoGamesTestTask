@@ -3,14 +3,17 @@ using UnityEngine.AI;
 
 namespace QulisoftTestTask.Enemies
 {
-    public class EnemyController : MonoBehaviour
+    public class EnemyMove : MonoBehaviour
     {
         [SerializeField] private NavMeshAgent _agent;
         private Transform _target;
 
         private void Update()
         {
-            _agent.SetDestination(_target.position);
+            if (_agent.enabled)
+            {
+                _agent.SetDestination(_target.position);
+            }
         }
 
         public void SetTarget(Transform target)

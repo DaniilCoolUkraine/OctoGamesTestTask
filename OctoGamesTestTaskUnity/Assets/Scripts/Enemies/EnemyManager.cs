@@ -25,7 +25,7 @@ namespace QulisoftTestTask.Enemies
             {
                 lastZombie = Instantiate(_zombiePrefab, _spawnPoints[Random.Range(0, _spawnPoints.Length)].position, Quaternion.identity);
                 
-                lastZombie.GetComponent<EnemyController>().SetTarget(_player);
+                lastZombie.GetComponent<EnemyMove>().SetTarget(_player);
                 
                 yield return new WaitForSeconds(_timeBetweenSpawn);
             }
