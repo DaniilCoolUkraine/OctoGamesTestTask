@@ -26,6 +26,7 @@ namespace QulisoftTestTask.Enemies
         
         public override void Die(Vector3 position, Vector3 force, GameObject attacker)
         {
+            base.Die(position, force, attacker);
             SwitchRagdoll();
             
             _rigidbody.velocity = Vector3.zero;
@@ -34,10 +35,13 @@ namespace QulisoftTestTask.Enemies
         
         private void SwitchRagdoll()
         {
-            _animator.enabled = !_animator.enabled;
-            
-            _rigidbody.isKinematic = !_rigidbody.isKinematic;
+            if (_rigidbody.constraints == RigidbodyConstraints.FreezeAll)
+                _rigidbody.constraints = RigidbodyConstraints.None;
+            else
+                _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
 
+            _animator.enabled = !_animator.enabled;
+            _rigidbody.isKinematic = !_rigidbody.isKinematic;
             _agent.enabled = !_agent.enabled;
         }
     }
