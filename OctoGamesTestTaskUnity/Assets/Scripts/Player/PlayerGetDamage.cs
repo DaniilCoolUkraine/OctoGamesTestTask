@@ -2,7 +2,7 @@
 using QulisoftTestTask.Enemies;
 using UnityEngine;
 
-namespace QulisoftTestTask
+namespace QulisoftTestTask.Player
 {
     public class PlayerGetDamage : MonoBehaviour
     {

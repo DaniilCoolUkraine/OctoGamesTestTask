@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 namespace QulisoftTestTask.Enemies
 {
-    public class EnemyMove : MonoBehaviour
+    public class EnemyMovement : MonoBehaviour
     {
         [SerializeField] private NavMeshAgent _agent;
         private Transform _target;
