@@ -31307,8 +31307,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _onEnemyKilled: {fileID: 11400000, guid: 4abe4d04c68c6714a9ec5633a783b1e4, type: 2}
   _onPlayerDeath: {fileID: 11400000, guid: f45510470f9c46442a02120586f5e85d, type: 2}
-  _enemyKilledCounter: {fileID: 1665775967}
   _characterHealth: {fileID: 1665775952}
+  _unityInput: {fileID: 1665775955}
+  _enemyKilledCounter: {fileID: 1665775967}
 --- !u!1 &1667609950
 GameObject:
   m_ObjectHideFlags: 0
